@@ -54,12 +54,12 @@ export const AboutSection: React.FC = () => {
           <div className="relative mx-auto w-full max-w-xl lg:mx-0">
 
             <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-xl">
-              <img
-                src={gardenImage}
-                alt="Garden makeover and patio completed by EU Gardening Services in Greater Manchester"
-                className="h-[360px] w-full object-cover sm:h-[460px] lg:h-[520px]"
-                loading="lazy"
-              />
+             <img
+  src={gardenImage}
+  alt="Garden makeover completed by EU Gardening Services"
+  className="h-[360px] w-full object-cover sm:h-[460px] lg:h-[520px]"
+  loading="lazy"
+/>
 
               {/* Image Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/70 via-transparent to-transparent" />
