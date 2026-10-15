@@ -1,4 +1,10 @@
 import { GalleryProject, ServiceItem, Testimonial } from '../types';
+import lawnImage from '../assets/images/lawn_mowing_stripes_1791992992954.jpg';
+import hedgeImage from '../assets/images/hedge_trimming_shaping_1791992994507.jpg';
+import gardenImage from '../assets/images/hero_manchester_garden_1791992991902.jpg';
+import plantingImage from '../assets/images/planting_weeding_border_1791993275799.jpg';
+import makeoverImage from '../assets/images/garden_makeover_patio_1791992995362.jpg';
+import pressureWashingImage from '../assets/images/pressure_washing_paving_1791992995061.jpg';
 
 export const BUSINESS_INFO = {
   name: 'EU Gardening Services',
@@ -29,7 +35,7 @@ export const SERVICES: ServiceItem[] = [
     shortDesc: 'Regular striped cutting, precision border edging, and seasonal turf conditioning.',
     fullDesc:
       'Keep your Manchester lawn in pristine, striped condition throughout the growing season. We use commercial rear-roller mowers to create signature British lawn stripes, trim edges flush with strimmers and shears, and leave all paths and patios blown clear of grass cuttings.',
-    image: '/src/assets/images/lawn_mowing_stripes_1791992992954.jpg',
+    image: lawnImage,
     iconName: 'Scissors',
     features: [
       'Crisp striped cylinder or roller finish',
@@ -48,7 +54,7 @@ export const SERVICES: ServiceItem[] = [
     shortDesc: 'Sharp architectural shaping, height reduction, and neat boundary hedge pruning.',
     fullDesc:
       'Overgrown hedges can quickly block natural light and encroach on pathways. We provide expert trimming, leveling, and reduction for privet, conifer, beech, laurel, and hawthorn hedges across Greater Manchester, ensuring tidy geometric lines and healthy seasonal regrowth.',
-    image: '/src/assets/images/hedge_trimming_shaping_1791992994507.jpg',
+    image: hedgeImage,
     iconName: 'Trees',
     features: [
       'Precision top levelling and crisp vertical lines',
@@ -67,7 +73,7 @@ export const SERVICES: ServiceItem[] = [
     shortDesc: 'Complete year-round garden care, seasonal pruning, tidying, and weed management.',
     fullDesc:
       'A dependable scheduled garden care service tailored to Manchester weather. Whether you need a fortnightly visit to keep weeds under control and plants flourishing or a monthly seasonal tidy, our team takes pride in keeping your outdoor spaces healthy, inviting, and clean.',
-    image: '/src/assets/images/hero_manchester_garden_1791992991902.jpg',
+    image: gardenImage,
     iconName: 'Sparkles',
     features: [
       'Comprehensive weeding of flower beds, borders, and gravel',
@@ -86,7 +92,7 @@ export const SERVICES: ServiceItem[] = [
     shortDesc: 'Bed preparation, perennial flower planting, soil enrichment, and weed suppression.',
     fullDesc:
       'Transform tired flower borders into vibrant, pollinator-friendly displays. We remove stubborn weeds down to the root, enrich heavy clay Manchester soils with organic compost, and plant durable perennials, shrubs, and seasonal bedding plants suited to local conditions.',
-    image: '/src/assets/images/planting_weeding_border_1791993275799.jpg',
+    image: plantingImage,
     iconName: 'Flower2',
     features: [
       'Deep root weed extraction without excessive chemical use',
@@ -105,7 +111,7 @@ export const SERVICES: ServiceItem[] = [
     shortDesc: 'Overgrown garden transformations, full site clearances, and new turfing.',
     fullDesc:
       'Have you inherited an overgrown jungle or neglected rental property? We tackle heavy brambles, self-seeded saplings, dilapidated sheds, and untamed vegetation. We can level the ground, lay fresh turf, install raised sleeper beds, and give your garden a complete fresh start.',
-    image: '/src/assets/images/garden_makeover_patio_1791992995362.jpg',
+    image: makeoverImage,
     iconName: 'Trowel',
     features: [
       'Heavy bramble, weed, and overgrown ivy clearance',
@@ -124,7 +130,7 @@ export const SERVICES: ServiceItem[] = [
     shortDesc: 'Restoring slippery stone patios, driveways, decking, and block paving.',
     fullDesc:
       'Manchester rain and damp winters leave patios and driveways coated in slippery green algae, black spots, and moss. Our commercial-grade high-pressure jet washing safely strips away years of grime, restoring the natural beauty of Indian sandstone, flags, block paving, and timber decking.',
-    image: '/src/assets/images/pressure_washing_paving_1791992995061.jpg',
+    image: pressureWashingImage,
     iconName: 'Droplets',
     features: [
       'Deep cleaning of Indian sandstone, concrete flags & porcelain',
@@ -168,7 +174,7 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
     title: 'Residential Lawn Striping & Edge Detailing',
     category: 'lawns',
     location: 'Openshaw (M11)',
-    image: '/src/assets/images/lawn_mowing_stripes_1791992992954.jpg',
+    image: lawnImage,
     description: 'Fortnightly lawn cutting with sharp roller stripes, border trimmings, and blown patio clear-up.',
     completionTime: '1 Hour',
   },
@@ -177,7 +183,7 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
     title: 'Formal Privet & Conifer Boundary Hedge Shaping',
     category: 'hedges',
     location: 'Droylsden (M43)',
-    image: '/src/assets/images/hedge_trimming_shaping_1791992994507.jpg',
+    image: hedgeImage,
     description: 'Precision trimming of 25-meter boundary hedge line, leveling tops and removing overgrowth from the path.',
     completionTime: '3 Hours',
   },
@@ -186,7 +192,7 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
     title: 'Sandstone Patio Restoration & Sleepers',
     category: 'makeovers',
     location: 'Gorton (M18)',
-    image: '/src/assets/images/garden_makeover_patio_1791992995362.jpg',
+    image: makeoverImage,
     description: 'Full garden makeover: leveled garden bed, added treated timber sleeper planters, and seeded fresh lawn.',
     completionTime: '2 Days',
   },
@@ -195,7 +201,7 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
     title: 'Indian Sandstone Jet Washing & Algae Removal',
     category: 'pressure-washing',
     location: 'Clayton (M11)',
-    image: '/src/assets/images/pressure_washing_paving_1791992995061.jpg',
+    image: pressureWashingImage,
     description: 'High-pressure wash removing years of stubborn Manchester moss and grime, restoring natural stone colour.',
     completionTime: 'Half Day',
   },
@@ -204,7 +210,7 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
     title: 'Perennial Flower Border Planting & Bark Mulch',
     category: 'planting',
     location: 'Didsbury (M20)',
-    image: '/src/assets/images/planting_weeding_border_1791993275799.jpg',
+    image: plantingImage,
     description: 'Removal of entrenched weeds, soil improvement with rich compost, and planting of hardy British perennials.',
     completionTime: '1 Day',
   },
@@ -213,7 +219,7 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
     title: 'Complete Garden Clearance & Summer Tidy',
     category: 'makeovers',
     location: 'Ancoats (M4)',
-    image: '/src/assets/images/hero_manchester_garden_1791992991902.jpg',
+    image: gardenImage,
     description: 'Comprehensive seasonal maintenance: lawn cut, hedges reshaped, borders weeded, and green waste bagged.',
     completionTime: '1 Day',
   },
